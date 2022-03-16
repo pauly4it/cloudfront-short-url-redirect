@@ -1,0 +1,35 @@
+{
+  "name": "cloudfront-short-url-redirect",
+  "version": "1.0.0",
+  "description": "URL forwarding CloudFront function",
+  "keywords": [
+    "aws",
+    "cloudfront",
+    "cloudfront function",
+    "handlebars",
+    "url forwarding"
+  ],
+  "author": "Paul Foryt",
+  "license": "MIT",
+  "homepage": "https://github.com/pauly4it/cloudfront-short-url-redirect",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pauly4it/cloudfront-short-url-redirect.git",
+    "https": "https://github.com/pauly4it/cloudfront-short-url-redirect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pauly4it/cloudfront-short-url-redirect/issues"
+  },
+  "private": false,
+  "main": "dist/url-forward-build.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "node ./compile.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}

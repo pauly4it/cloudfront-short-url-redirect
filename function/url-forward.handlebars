@@ -1,0 +1,1 @@
+function handler(e){var r=e.request,u=r.uri,n={{{object links}}}[u.substring(1)]||'{{{defaultRedirect}}}',o={};o[r.method]=u,o.Redirect=n,o.Headers=r.headers,console.log(o);return{statusCode:302,statusDescription:'Found',headers:{'location':{value:'https://'+n}}}}

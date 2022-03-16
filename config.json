@@ -1,0 +1,7 @@
+{
+    "links": {
+        "test": "example.com",
+        "foo": "example.com/bar"
+    },
+    "defaultRedirect": "github.com"
+}
