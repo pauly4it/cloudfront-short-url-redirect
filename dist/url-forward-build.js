@@ -1,0 +1,1 @@
+function handler(e){var r=e.request,u=r.uri,n={"test":"example.com","foo":"example.com/bar"}[u.substring(1)]||'github.com',o={};o[r.method]=u,o.Redirect=n,o.Headers=r.headers,console.log(o);return{statusCode:302,statusDescription:'Found',headers:{'location':{value:'https://'+n}}}}
